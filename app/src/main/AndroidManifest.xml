@@ -1,11 +1,12 @@
 
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
     <application
-        android:theme="@android:style/Theme.Material.NoActionBar"
-        android:label="Dronux Launcher"
         android:allowBackup="false"
-        android:supportsRtl="true">
+        android:label="Dronux Launcher"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Material.NoActionBar">
 
         <activity
             android:name=".MainActivity"
@@ -17,5 +18,6 @@
             </intent-filter>
 
         </activity>
+
     </application>
 </manifest>
